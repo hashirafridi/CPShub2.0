@@ -86,11 +86,12 @@ const MainSection = () => {
             >
               <ChevronRight className="absolute top-4 right-4 w-5 h-5 md:w-6 md:h-6" style={{ color: "#F22613" }} />
               <div className="flex items-center space-x-3 md:space-x-4 mb-3 md:mb-4">
-                <div
-                  className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center text-white font-bold text-base"
-                  style={{ backgroundColor: "#F22613" }}
-                >
-                  C
+                <div className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
+                  <img
+                    src="/company.svg"
+                    alt="Companies icon"
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold" style={{ color: "#F22613" }}>
                   Companies
@@ -108,11 +109,12 @@ const MainSection = () => {
             >
               <ChevronRight className="absolute top-4 right-4 w-5 h-5 md:w-6 md:h-6" style={{ color: "#505050" }} />
               <div className="flex items-center space-x-3 md:space-x-4 mb-3 md:mb-4">
-                <div
-                  className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center text-white font-bold text-base"
-                  style={{ backgroundColor: "#505050" }}
-                >
-                  P
+                <div className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
+                  <img
+                    src="/project.svg"
+                    alt="Projects icon"
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold" style={{ color: "#505050" }}>
                   Projects
@@ -130,11 +132,12 @@ const MainSection = () => {
             >
               <ChevronRight className="absolute top-4 right-4 w-5 h-5 md:w-6 md:h-6" style={{ color: "#0084AB" }} />
               <div className="flex items-center space-x-3 md:space-x-4 mb-3 md:mb-4">
-                <div
-                  className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center text-white font-bold text-base"
-                  style={{ backgroundColor: "#0084AB" }}
-                >
-                  P
+                <div className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
+                  <img
+                    src="/people.svg"
+                    alt="People icon"
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold" style={{ color: "#0084AB" }}>
                   People
@@ -152,11 +155,12 @@ const MainSection = () => {
             >
               <ChevronRight className="absolute top-4 right-4 w-5 h-5 md:w-6 md:h-6" style={{ color: "#F09436" }} />
               <div className="flex items-center space-x-3 md:space-x-4 mb-3 md:mb-4">
-                <div
-                  className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center text-white font-bold text-base"
-                  style={{ backgroundColor: "#F09436" }}
-                >
-                  P
+                <div className="w-11 h-11 md:w-12 md:h-12 rounded-lg flex items-center justify-center">
+                  <img
+                    src="/product.svg"
+                    alt="Products icon"
+                    className="w-10 h-10 object-contain"
+                  />
                 </div>
                 <h3 className="text-xl md:text-2xl font-bold" style={{ color: "#F09436" }}>
                   Products
@@ -170,11 +174,12 @@ const MainSection = () => {
 
           {/* Center Cross Logo */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-            <div
-              className="w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full flex items-center justify-center text-white font-bold text-sm md:text-xl lg:text-2xl shadow-2xl"
-              style={{ backgroundColor: "#002F6C" }}
-            >
-              HUB
+            <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 flex items-center justify-center">
+              <img
+                src="/X.svg"
+                alt="Center hub logo"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>

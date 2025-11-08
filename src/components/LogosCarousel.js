@@ -1,40 +1,10 @@
 const logosData = [
-  {
-    id: 1,
-    name: "Company A",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-a",
-  },
-  {
-    id: 2,
-    name: "Company B",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-b",
-  },
-  {
-    id: 3,
-    name: "Company C",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-c",
-  },
-  {
-    id: 4,
-    name: "Company D",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-d",
-  },
-  {
-    id: 5,
-    name: "Company E",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-e",
-  },
-  {
-    id: 6,
-    name: "Company F",
-    logoSrc: "/placeholder.svg",
-    link: "https://example.com/company-f",
-  },
+  { id: 1, name: "Foster",  logoSrc: "/logo/Foster.webp",  link: "#" },
+  { id: 2, name: "Jacobs",  logoSrc: "/logo/Jacobs.webp",  link: "#" },
+  { id: 3, name: "NORR",    logoSrc: "/logo/Norr.svg",    link: "#" },
+  { id: 4, name: "RSP",     logoSrc: "/logo/RSP.webp",     link: "#" },
+  { id: 5, name: "Red Sea", logoSrc: "/logo/RedSea.svg",   link: "#" },
+  { id: 6, name: "Page", logoSrc: "/logo/page.webp",    link: "#" },
 ];
 
 const LogosCarousel = () => {
