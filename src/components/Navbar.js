@@ -6,9 +6,9 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+    <nav className="w-full bg-white shadow-md ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-black color-white">
+        <div className="flex items-center justify-between h-20 color-white">
           {/* Left - Small Logo */}
           <div className="flex-shrink-0">
             <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-sm" style={{ backgroundColor: '#002F6C' }}>
@@ -16,24 +16,24 @@ const Navbar = () => {
             </div>
           </div>
           {/* Middle - Navigation Links */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8 ">
             <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               About
             </a>
             <a href="#projects" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Projects
+              Project
             </a>
             <a href="#products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Products
+              Product
             </a>
             <a href="#companies" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Companies
+              Company
             </a>
             <a href="#people" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              People
+              Peoples
             </a>
             <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Exclusive Services
+              Exclusive Service
             </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Contact Us
@@ -43,10 +43,10 @@ const Navbar = () => {
           {/* Right - Buttons */}
           <div className="flex items-center space-x-2 sm:space-x-4">
             <button className="hidden sm:block px-4 sm:px-6 py-2 text-sm font-medium text-white rounded-lg transition-colors" style={{ backgroundColor: '#139ED5' }}>
-              Log in
+                            Sign Up
             </button>
             <button className="hidden sm:block px-4 sm:px-6 py-2 text-sm font-medium text-white rounded-lg transition-colors" style={{ backgroundColor: '#002F6C' }}>
-              Sign Up
+Log in
             </button>
             
             {/* Language Dropdown */}
@@ -67,7 +67,7 @@ const Navbar = () => {
                     English
                   </button>
                   <button className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                    العربية
+                    Urdu
                   </button>
                 </div>
               )}

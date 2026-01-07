@@ -15,7 +15,7 @@ const LogosCarousel = () => {
     <div className="w-full py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
-          Our Partners
+          Our Partner
         </h2>
         
         <div className="relative">

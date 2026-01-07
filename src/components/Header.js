@@ -25,7 +25,7 @@ const Header = () => {
               Access major construction Projects in the Middle East, and connect with the People who matter
             </p>
             <button className="w-full sm:w-auto px-8 py-3 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all" style={{ backgroundColor: '#002F6C' }}>
-              See more
+              Read more
             </button>
           </div>
         </div>
