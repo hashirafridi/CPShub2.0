@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white shadow-md ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-black color-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white color-white">
         <div className="flex items-center justify-between h-20 color-white">
           {/* Left - Small Logo */}
           <div className="flex-shrink-0">
