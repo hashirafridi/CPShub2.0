@@ -6,25 +6,25 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-md ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white color-white">
+    <nav className="w-full bg-blue shadow-md ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-blue color-white">
         <div className="flex items-center justify-between h-20 color-white">
           {/* Left - Small Logo */}
           <div className="flex-shrink-0">
             <div className="w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-sm" style={{ backgroundColor: '#002F6C' }}>
-              CPS
+              CPS2
             </div>
           </div>
           {/* Middle - Navigation Links */}
           <div className="hidden lg:flex items-center space-x-8 ">
             <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              About
+              About us
             </a>
             <a href="#projects" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Project
+              Our Project
             </a>
             <a href="#products" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Product
+             Our Product
             </a>
             <a href="#companies" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Company
